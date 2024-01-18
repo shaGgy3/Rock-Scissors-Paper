@@ -1,0 +1,39 @@
+#gameDiv{
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+.gameText{
+    margin-left: 90px;
+}
+.btn{
+    width: 120px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border-color: grey;
+}
+.btn:hover{
+    box-shadow: 5px 5px 50px black inset;
+    cursor: pointer;
+}
+#resultText{
+    color: green;
+    margin-top: 120px;
+    margin-left: 170px;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+#computerCount{
+    border: 1px solid black;
+}
